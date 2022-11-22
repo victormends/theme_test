@@ -17,8 +17,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" > -->
 
     <!-- Top Navigation Menu -->
+    <?php 
+      wp_nav_menu(
+        array(
+          'menu' => 'primary',
+          'container' => '',
+          'theme_location' => 'primary',
+          'items_wrap' => '<ul id="myTopnav" class="topnav">%3$s</ul>'        )
+      )
+    ?>
+    
     <div class="topnav" id="myTopnav" >
-      <a href="index.php" class="active" class="noselect">home</a>
+      <a href="index.php" class="active noselect">home</a>
       <a href="news.php" class="noselect">news</a>
       <a href="cont.php" class="noselect">contact</a>
       <a href="about.php" class="noselect">about</a>

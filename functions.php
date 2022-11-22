@@ -7,3 +7,13 @@ function load_scripts(){
   
 }
 add_action('wp_enqueue_scripts','load_scripts');
+
+
+function theme_menus() {
+    $locations = array(
+        'primary' => 'Primary Menu test',
+    );
+    register_nav_menus($locations);
+}
+
+add_action('init','theme_menus');
