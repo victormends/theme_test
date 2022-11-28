@@ -323,3 +323,25 @@ a:-webkit-any-link:hover {
                                   supported by Chrome, Edge, Opera and Firefox */
 }
 
+.contato .dados-contato .main-contact-container .form-container .contact-form-container .contato {
+  min-width: 34rem;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     gap: 1rem;
+     box-shadow: 0 0 1rem rgb(0 0 0 / 20%);
+     padding: 2rem;
+     border-radius: 0.3rem 0 0 0.3rem;
+ }
+
+.topnav li a#menu-item-83:hover {
+  background-color:#181818;
+  text-decoration-thickness: bold;
+}
+
+/* Change the color of links on hover */
+.topnav li a:hover {
+  background-color: #252525;
+  color: rgb(8, 248, 0);
+}
+
+

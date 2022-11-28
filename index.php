@@ -27,7 +27,7 @@
       )
     ?>
     
-    <div class="topnav" id="myTopnav" >
+    <!-- <div class="topnav" id="myTopnav" >
       <a href="index.php" class="active noselect">home</a>
       <a href="news.php" class="noselect">news</a>
       <a href="cont.php" class="noselect">contact</a>
@@ -35,8 +35,9 @@
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
-    </div>
+    </div> -->
       <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+
 
     </div>
     <div class="row">
